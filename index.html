@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Mitube</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0caf40c82c.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js" defer></script>
+  </head>
+<body>
+ <!--  Nav -->   
+  <header>
+    <div class="logo">
+      <span class="title" tabindex="1">MiTube</span>
+    </div>
+    <div class="search_area">
+      <form action="#">
+        <fieldset>
+          <label for="search" class="search_box">
+            <input id="search" type="text" title="검색어 입력" placeholder="검색" tabindex="2">
+          </label>
+        </fieldset>
+      </form>
+      <button type="submit" title="검색" class="search_btn">
+        <span class="search_icon" tabindex="2"></span>
+      </button>
+      <i class="mic_icon" tabindex="3"></i>
+    </div>
+    <div class="icons">
+      <i class="upload" tabindex="4"></i>
+      <i class="alarm" tabindex="4"></i>
+      <i class="user" tabindex="4"></i>
+    </div>
+  </header>
+  <section id="main_bg">
+    <i class="profile_img"></i>
+    <h1 class="profile_title">안녕하세요&nbsp; <br>퍼블리셔 이미현 입니다.</h1>
+  </section>
+  <div class="section_wrap">
+    <section class="info">
+      <div class="metadata clearfix">
+        <ul class="hashtag">
+          <li tabindex="5">#Publisher</li>
+          <li tabindex="5">#HTML</li>
+          <li tabindex="5">#CSS</li>
+          <li tabindex="5">#Java script</li>
+        </ul>
+        <div class="titleAndButton">
+          <span class="title clamp">
+            이미현의 포트폴리오 입니다.
+          </span>
+        </div>
+        <div class="view_info clearfix">
+          <button type="button" class="button subscribe_btn">
+            <span class="unsubscribe" tabindex="6">구독중</span>
+            <span class="subscribe" tabindex="6">구독</span>
+          </button>
+          <div class="viewer">
+            <span class="increase">구독자 121명</span>
+            <span class="decrease">구독자 120명</span>
+          </div>
+        </div>
+      </div>
+      <ul class="actions">
+        <li>
+            <button>
+                <i class="fas fa-thumbs-up clicked" tabindex="7"></i>1.9M</button>
+          </li>
+        <li>
+            <button><i class="fas fa-thumbs-down" tabindex="7"></i>8</button>
+          </li>
+        <li>
+            <button><i class="fas fa-share" tabindex="7"></i>share</button>
+          </li>
+        <li>
+            <button><i class="fas fa-plus" tabindex="7"></i>save</button>
+          </li>
+        <li>
+            <button><i class="fab fa-font-awesome-flag" tabindex="7"></i>report</button>
+          </li>
+      </ul>
+
+      <ul class="tab_btn">
+        <li class="about" tabindex="8">
+          <a href="#about_page">
+            About
+          </a>
+        </li>
+        <li class="skills" tabindex="8">
+          <a href="#skills_page">
+            Skills
+          </a>
+        </li>
+        <li class="contact" tabindex="8">
+          <a href="#contact_page">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="portfolio">
+      <span class="title">Portfolio</span>
+      <ul>
+        <li class="item">
+          <a class="item_link_img" href="https://melllee.cafe24.com/apple/apple.html" target="_blank">
+            <img src="img/apple.jpg" alt="" class="img" tabindex="9">
+            <span class="view_more">View more</span>
+          </a>
+            <div class="info">
+              <a class="item_link" href="https://melllee.cafe24.com/apple/apple.html" target="_blank" tabindex="9"><span class="title">이미현의 프로젝트 ｜ Apple Website Clone Coding Project</span></a>
+              <span class="name">by. MH Lee</span>
+              <span class="views">조회수 100m 2주 전</span>
+          </div>
+          <button class="moreBtn"><i class="view-more_btn"></i> </button>
+        </li>
+        <li class="item">
+          <a class="item_link_img" href="https://melllee.cafe24.com/stonehenge/stonehenge.html" target="_blank">
+            <img src="img/stonehenge.jpg" alt="" class="img" tabindex="9">
+            <span class="view_more">View more</span>
+          </a>
+          <div class="info">
+              <a class="item_link" href="https://melllee.cafe24.com/stonehenge/stonehenge.html" target="_blank" tabindex="9"><span class="title">이미현의 프로젝트 ｜ Stone Henge Website Clone Coding Project</span></a>
+              <span class="name">by. MH Lee</span>
+              <span class="views">조회수 249m 2개월 전</span>
+          </div>
+          <button class="moreBtn"><i class="view-more_btn"></i> </button>
+        </li>
+        <!-- <li class="item">
+          <a class="item_link_img" href="#portfolio_page">
+            <img src="img/apple.jpg" alt="" class="img">
+            <span class="view_more">View more</span>
+          </a>
+          <div class="info">
+              <a class="item_link" href="#portfolio_page"><span class="title">이미현의 프로젝트 ｜ Apple Website Clone Coding Project</span></a>
+              <span class="name">by. MH Lee</span>
+              <span class="views">조회수 1000m 6개월 전</span>
+          </div>
+          <button class="moreBtn"><i class="view-more_btn"></i> </button>
+        </li> -->
+      </ul>
+    </section>
+  </div>
+  <section id="about_page">
+    <h2 class="page_title" tabindex="10">About me</h2>
+    <p class="page_text">
+      안녕하세요 아직 배울것이 많은 초보 퍼블리셔 이미현 입니다.<br>
+  끊임없이 공부하고 연습하여 편리하고 재미있게 이용할 수 있는<br>
+  사이트를 만드는 퍼블리셔가 되고싶습니다.<br>
+  항상 사용자와 작업자의 입장에서 동시에 생각하며 작업하고<br>
+  깔끔하고 수정이 용이한 코드를 짜도록 노력하며<br>
+  늘 고민하고 또 고민하는 퍼블리셔가 되겠습니다.<br>
+  부족한 내용이 많은 포트폴리오 이지만<br>
+  앞으로 더 채워나가고 발전시키겠습니다.
+  감사합니다.
+    </p>
+  </section>
+  <section id="skills_page">
+    <h2 class="page_title" tabindex="10">Skills & Profile</h2>
+    <ul class="skill_list">
+      <li><img src="img/html.png" alt=""></li>
+      <li><img src="img/css.png" alt=""></li>
+      <li><img src="img/js.png" alt=""></li>
+      <li><img src="img/photoshop.png" alt=""></li>
+    </ul>
+    <p class="page_text">
+      * UI/UX 웹디자인 실무자양성(웹퍼블리셔, 프론트엔드)과정 수료<br>
+      (수료 기간: 2020년 12월 29일 ~ 2021년 04월 22일)<br>
+      - 수료 기관명: 더조은컴퓨터아트학원 신촌점<br>
+      <br>
+
+      * 2021년 05월 GTQ1급 포토샵 자격증 취득
+    </p>
+    <table tabindex="10">
+      <tbody>
+        <tr>
+          <th>프로젝트명(근무지명)</th>
+          <th>기간</th>
+          <th>기여도</th>
+        </tr>
+        <tr>
+          <td>
+            <a href="http://www.oakvalley.co.kr/oak_new/new_golfmain.asp" target="_blank">오크밸리(반영 전)</a> <br>
+            <a href="http://www.hihat.co.kr/kor/" target="_blank">하이햇(www.hihat.co.kr) auditon/artist 페이지 작업</a>
+          </td>
+          <td>21. 09. 23 ~ 22. 04. 14</td>
+          <td>
+            오크밸리 20%<br>
+            하이햇 15%
+          </td>
+        </tr>
+        <tr>
+          <td>하나은행 하나원큐 어플 개선 프로젝트(모바일로 확인 가능)</td>
+          <td>21. 10. 18 ~ 21. 12. 31</td>
+          <td>20%</td>
+        </tr>
+        <tr>
+          <td>새마을금고 인터넷뱅킹 개선 프로젝트(현재 진행 중)</td>
+          <td>22. 02. 21 ~ 22. 04. 14</td>
+          <td>10%</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="contact_page">
+    <h2 class="page_title" tabindex="11">Contact</h2>
+    <ul class="contact">
+      <li><a href="https://github.com/mellllee/mell.github.io" target="_blank" tabindex="11"><img src="img/github.png" alt="github link"></a></li>
+      <li><a href="http://melllee.cafe24.com/index.html" target="_blank" tabindex="11"><img src="img/website.png" alt="portfolio site"></a></li>
+      <li><a href="mailto:mh_1988@naver.com" title="메일 보내기"><img src="img/email.png" alt="email" tabindex="11"></a></li>
+    </ul>
+  </section>
+  <div id="top_btn"><a href="#main_bg" tabindex="12">TOP</a></div>
+</body>
+</html>
